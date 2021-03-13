@@ -10,6 +10,7 @@ namespace GraphQl.Types
             Field(t=>t.Id,type:typeof(IdGraphType));
             Field(t=>t.Name,type:typeof(StringGraphType));
             Field(t=>t.Family,type:typeof(StringGraphType));
+            Field<ProductGraphEnumType>("ProductType","dddd");
         }
     }
 }
